@@ -33,4 +33,7 @@
   tbody tr:last-child .edit-menu {
     @apply bottom-auto -translate-y-full top-4;
   }
+  tbody tr th {
+    @apply break-words;
+  }
 }

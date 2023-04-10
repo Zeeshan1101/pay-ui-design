@@ -46,8 +46,8 @@ function App() {
           </div>
         </div>
 
-        <div className="relative z-10 w-full gap-12 p-4 sm:p-4 pt-14">
-          <div className="flex justify-between sm:hidden menu-click">
+        <div className="relative z-10 w-full gap-12 p-4 md:p-4 pt-14">
+          <div className="flex justify-between md:hidden menu-click">
             <button
               className="cursor-pointer bg-[#f1f1f1] w-max rounded-2xl p-3"
               onClick={() => setOpen(!open)}>
@@ -75,7 +75,7 @@ function App() {
             </div>
           </div>
           <Nav />
-          <div className="w-full h-full sm:pl-[340px]">
+          <div className="w-full h-full md:pl-[340px]">
             <div className="flex flex-col items-center justify-between gap-3 mt-4 sm:flex-row">
               <LastMonthStats />
               <UserBox />

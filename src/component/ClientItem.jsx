@@ -11,7 +11,7 @@ const ClientItem = ({ open, set, i }) => {
           </div>
         </td>
         <td>25</td>
-        <td className="hidden sm:block">24-10-2024</td>
+        <td>24-10-2024</td>
         <td>3/month</td>
         <td>&#8364;3000</td>
         <td className="relative">

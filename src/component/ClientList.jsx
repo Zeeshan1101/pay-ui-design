@@ -38,7 +38,7 @@ const ClientList = () => {
               <tr className="text-[#979797] uppercase text-sm">
                 <th className="w-1/3 ">Client</th>
                 <th># Send</th>
-                <th className="hidden sm:block">End Date</th>
+                <th>End Date</th>
                 <th>Interval</th>
                 <th>Amount</th>
                 <th>Edit</th>

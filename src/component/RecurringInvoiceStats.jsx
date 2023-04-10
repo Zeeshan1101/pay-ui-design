@@ -5,12 +5,12 @@ const RecurringInvoiceStats = () => {
     <>
       <div className="recurring-head">
         <div className="flex items-end justify-between w-full">
-          <div className="text-3xl font-bold sm:text-5xl heading">
+          <div className="text-3xl font-bold md:text-5xl heading">
             Recurring Invoices
           </div>
           <div className="head-action">
             <button className="group normal text-white hover:bg-[#2A316A] ">
-              <span className="hidden sm:block">Add Recurring Invoice</span>
+              <span className="hidden md:block">Add Recurring Invoice</span>
               <svg
                 className="transition-all group-hover:scale-110"
                 width="14"
@@ -30,7 +30,7 @@ const RecurringInvoiceStats = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 gap-3 mt-12 md:grid-cols-3 sm:gap-8 recurring-body">
+      <div className="grid grid-cols-1 gap-3 mt-12 md:grid-cols-3 md:gap-8 recurring-body">
         <div className="bg-[#F9F9FB]  pt-9 text-center">
           <div className="text-sm font-bold uppercase px-3  text-[#979797]">
             Recurring Invoices
@@ -42,7 +42,7 @@ const RecurringInvoiceStats = () => {
             Recurring Revenue
           </div>
           <div className="pb-8 text-4xl font-bold pt-11">
-            &#8364;2500<span className="text-xs sm:text-base">/month</span>
+            &#8364;2500<span className="text-xs md:text-base">/month</span>
           </div>
         </div>
         <div className="bg-[#F9F9FB]  pt-9 text-center">
