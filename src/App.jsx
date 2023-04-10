@@ -41,7 +41,7 @@ function App() {
       <section className="page ">
         <div className="absolute top-0 right-0 w-full h-36">
           <div className="relative w-full h-full">
-            <div className="absolute -z-0 top-0 right-0 bg-[url('src/assets/bg.png')] w-full h-full mix-blend-hard-light bg-center  "></div>
+            <div className="absolute -z-0 top-0 right-0 bg-[url('/bg.png')] w-full h-full mix-blend-hard-light bg-center  "></div>
             <div className="bg-[#D9D9D9] relative z-10 w-full h-full bg-opacity-10 "></div>
           </div>
         </div>
