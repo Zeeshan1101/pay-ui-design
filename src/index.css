@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  section {
+    font-family: "DM Sans", sans-serif;
+    @apply w-full h-full;
+  }
+
+  section.page {
+    @apply relative;
+  }
+  button.normal {
+    @apply flex items-center gap-1 sm:py-5 text-white transition-all bg-black sm:px-14 px-8 py-3 hover:bg-[#2A316A];
+  }
+  tr {
+    @apply border-b-2 border-[#E4E4E4];
+  }
+  tr > * {
+    @apply py-4;
+  }
+  .client-list .body th {
+    @apply font-normal;
+  }
+  button.edit {
+    @apply flex items-center;
+  }
+  tbody tr:last-child .edit-menu {
+    @apply bottom-auto -translate-y-full top-4;
+  }
+}
